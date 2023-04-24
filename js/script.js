@@ -85,7 +85,7 @@ window.addEventListener("scroll", () => {
   })
   
   sr.reveal(`.home-content, .content-title, .file-upload-form, .section-title, .section-subtitle, .section-description, .brand-image, .tesitmonial, .newsletter 
-.logo-content, .newsletter-inputBox, .newsletter-mediaIcon, .footer-content, .footer-links`, {interval:100,})
+.logo-content, .newsletter-inputBox, .newsletter-mediaIcon, .footer-content, .footer-links`, {interval:1,})
 
 sr.reveal(`.about-imageContent, .menu-items`, {origin: 'left'})
 sr.reveal(`.about-details, .time-table`, {origin: 'right'})
