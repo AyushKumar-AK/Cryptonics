@@ -84,7 +84,7 @@ window.addEventListener("scroll", () => {
     delay: 400,
   })
   
-  sr.reveal(`.home-content, .content-title, .file-upload-form, .section-title, .section-subtitle, .section-description, .brand-image, .tesitmonial, .newsletter 
+  sr.reveal(`.logo-icon, .home-content, .content-title, .file-upload-form, .section-title, .section-subtitle, .section-description, .brand-image, .tesitmonial, .newsletter 
 .logo-content, .newsletter-inputBox, .newsletter-mediaIcon, .footer-content, .footer-links`, {interval:1,})
 
 sr.reveal(`.about-imageContent, .menu-items`, {origin: 'left'})
